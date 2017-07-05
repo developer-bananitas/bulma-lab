@@ -1,67 +1,21 @@
-*{
-  margin: 0;
-  padding: 0;
+.fondo-menu{
+  background-color: #104455;
 }
-body{
-  background: #EACEB4;
+main{
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #7FFFD6;
 }
-.barra-menu{
-  display: none;
+.caja-padre{
+  display: flex;
+  flex-wrap: nowrap;
 }
-header{
-  width: 100%;
-  margin: 0;
-  position: fixed;
-}
-header nav{
-  background: #3a7999;
-}
-header nav ul{
-  overflow: hidden;
-  list-style:none;
-}
-header nav ul li{
-  float: left;
-}
-header nav ul li a{
-  text-decoration: none;
-  display: block;
-  padding: 20px;
-  color: #fff;
-}
-header nav ul li a{
- background: #3a7999;
- color: #f2f2f2;
- text-decoration: none;
+.hijos{
+
 }
 @media screen and (max-width:800px){
-  header nav{
-    width: 80%;
-    height: 100%;
-    left: -100%;
-    margin: 0;
-    position: fixed;
-  }
-  header nav ul li{
-    display: block;
-    float: none;
-    border-bottom: 1px solid #f2f2f2;
-  }
-  .barra-menu{
-    display: block;
-    width: 100%;
-    background: #f2f2f2;
-  }
-  .barra-menu .boton-menu{
-    display: block;padding: 20px;
-    background: #3a7999;
-    color: #f2f2f2;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  .barra-menu span{
-    float: right;
-    font: 40px;
+  main{
+    padding-left: 0;
+    padding-right: 0;
   }
 }

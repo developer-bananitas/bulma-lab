@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background: #AFFFDF;
+  background: #C9EFF9;
 }
 .contenedor{
   display: flex;
@@ -12,7 +12,7 @@ body{
   padding-right: 20px;
 }
 .producto{
-  background-color: red;
+  background-color: #20DECB;
   cursor: pointer;
   height: 150px;
 }
@@ -27,6 +27,7 @@ body{
     align-content: center;
     margin: calc(5%/2);
   }
+}
 @media screen and (max-width:500px){
   .cal{
     width: 45%;
